@@ -10,14 +10,26 @@
 </head>
 
 <body>
+
   <header class="header">
+
     <div class="title">
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <img src="images/museum.jpg" alt="placeholder">
+
+    <picture>
+      <source
+        media="(min-width: 960px)"
+        srcset="images/museum-480.jpg">
+
+      <img
+        src="images/square-480.jpg"
+        alt="Museum">
+    </picture>
 
   </header>
+
 </body>
 
 </html>
